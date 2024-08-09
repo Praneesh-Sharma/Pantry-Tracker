@@ -189,8 +189,12 @@ export default function Home() {
     // bgcolor={'red'}
     sx={{
       backgroundImage: `url(${bg.src})`,
-      backgroundSize: 'cover', // To cover the entire Box
-      backgroundPosition: 'center', // Center the image
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundAttachment: 'fixed',
+      backgroundRepeat: 'no-repeat',
+      width: '100vw',
+      height: '100vh'
     }}
     >
       <Modal
