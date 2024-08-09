@@ -10,7 +10,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import SearchIcon from '@mui/icons-material/Search';
 import IconButton from '@mui/material/IconButton';
 
-import bg from 'C:/Users/pegas/Downloads/inventory-management-app/app/images/pantry.jpg'
+import bg from './images/pantry.jpg'
 
 const style = {
   position: 'absolute',
